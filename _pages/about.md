@@ -2,24 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ambitious student. Curious researcher. Serial intern. Avid reader. Sports enthusiast.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome! I'm Angéline, a MSc student at ETH Zürich, very curious about the world around me and deeply passionate about diving headfirst into fascinating topics. At the moment, I am mainly focusing on AI research and especially on ensuring the fairness and trustworthiness of machine learning models. Most recently, I've been a student researcher at Google DeepMind where I focused on evaluating and improving cultural diversity in contrastive vision-language models. I'm also a research assistant at ETH Zürich, working on learning data representations that provide fairness guarantees for downstream machine learning models. Before that, I worked on neuro-symbolic AI at IBM Research in Rüschlikon, where I developed a weightless RNN that solves high-dimensional sparse vector factorization problems. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Outside of my research endeavors, I have been fortunate enough to wear many different hats and explore various industries. I developed and priced cross-asset structured products and derivatives solutions on the trading floor at Goldman Sachs in London, assisted different teams in solving challenging business problems at McKinsey & Company and closely collaborated with client stakeholders during scoping, development and go-live of new use cases at Palantir Technologies. As a managing partner at Founderful Campus, I led a team of seven students while we scouted and selected 8 promising startups in which we invested CHF 25k each. During my time at ETH, I served as a teaching assistant for four different lectures, during which I prepared and taught weekly exercise sessions, held exam preparation courses and served as a liaison between professors and students.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My Master's degree studies are fully funded through the Excellence Scholarship & Opportunity Programme (ESOP) of ETH Zürich. During my Bachelor's degree studies, I was generously supported through a Werner Siemens Fellowship awarded by the Swiss Study Foundation and the Werner Siemens-Stiftung. 
