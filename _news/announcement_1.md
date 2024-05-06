@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My new personal website is online!
+My new academic website is online!
