@@ -5,6 +5,7 @@
   title={Factorizers for Distributed Sparse Block Codes},
   author={Hersche, Michael and Terzic, Aleksandar and Karunaratne, Geethan and Langenegger, Jovin and Pouget, Ang{\'e}line and Cherubini, Giovanni and Benini, Luca and Sebastian, Abu and Rahimi, Abbas},
   journal={Neurosymbolic Artificial Intelligence Journal},
+  abr={NAI Journal},
   year={2024},
   url={https://neurosymbolic-ai-journal.com/system/files/nai-paper-713.pdf},
   html={https://neurosymbolic-ai-journal.com/system/files/nai-paper-713.pdf},
@@ -24,22 +25,42 @@
   function. With this integration, the convolutional layers can generate a noisy product vector that our factorizer can still decode,
   whereby the decoded factors can have different interpretations based on downstream tasks. We demonstrate the feasibility of our
   method on four deep CNN architectures over CIFAR-100, ImageNet-1K, and RAVEN datasets. In all use cases, the number of
-  parameters and operations are notably reduced compared to the FCL.},
-  image={/assets/img/publication_preview/sparse_resonator.png}
+  parameters and operations are notably reduced compared to the FCL.}
 }
 
 @inproceedings{pouget2021fast,
-  title={Fast and accurate camera scene detection on smartphones},
-  author={Pouget, Angeline and Ramesh, Sidharth and Giang, Maximilian and Chandrapalan, Ramithan and Tanner, Toni and Prussing, Moritz and Timofte, Radu and Ignatov, Andrey},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  title={Fast and Accurate Camera Scene Detection on Smartphones},
+  author={Pouget, Ang{\'e}line and Ramesh, Sidharth and Giang, Maximilian and Chandrapalan, Ramithan and Tanner, Toni and Prussing, Moritz and Timofte, Radu and Ignatov, Andrey},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
   pages={2569--2580},
-  year={2021}
+  abr={CVPR Workshop},
+  month={June},
+  year={2021},
+  abstract={AI-powered automatic camera scene detection mode is nowadays available in nearly any modern smartphone,
+  though the problem of accurate scene prediction has not yet been addressed by the research community. This paper
+  for the first time carefully defines this problem and proposes a novel Camera Scene Detection Dataset (CamSDD)
+  containing more than 11K manually crawled images belonging to 30 different scene categories. We propose an efficient
+  and NPU-friendly CNN model for this task that demonstrates a top-3 accuracy of 99.5% on this dataset and achieves more
+  than 200 FPS on the recent mobile SoCs. An additional in-the-wild evaluation of the obtained solution is performed to
+  analyze its performance and limitation in the real-world scenarios. The dataset and pre-trained models used in this paper
+  are available on the project website.}
 }
 
 @inproceedings{ignatov2021fast,
-  title={Fast camera image denoising on mobile gpus with deep learning, mobile ai 2021 challenge: Report},
-  author={Ignatov, Andrey and Byeoung-Su, Kim and Timofte, Radu and Pouget, Angeline},
-  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  title={Fast Camera Image Denoising on Mobile GPUs With Deep Learning, Mobile AI 2021 Challenge: Report},
+  author={Ignatov, Andrey and Byeoung-su, Kim and Timofte, Radu and Pouget, Ang{\'e}line},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
   pages={2515--2524},
-  year={2021}
+  abr={CVPR Workshop},
+  month={June},
+  year={2021},
+  abstract={Image denoising is one of the most critical problems in mobile photo processing. While many solutions have
+  been proposed for this task, they are usually working with synthetic data and are too computationally expensive to run on
+  mobile devices. To address this problem, we introduce the first Mobile AI challenge, where the target is to develop an
+  end-to-end deep learning-based image denoising solution that can demonstrate high efficiency on smartphone GPUs. For this,
+  the participants were provided with a novel large-scale dataset consisting of noisy-clean image pairs captured in the wild.
+  The runtime of all models was evaluated on the Samsung Exynos 2100 chipset with a powerful Mali GPU capable of accelerating
+  floating-point and quantized neural networks. The proposed solutions are fully compatible with any mobile GPU and are capable
+  of processing 480p resolution images under 40-80 ms while achieving high fidelity results. A detailed description of all
+  models developed in the challenge is provided in this paper.}
 }
