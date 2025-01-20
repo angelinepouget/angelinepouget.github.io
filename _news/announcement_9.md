@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Our [paper](https://arxiv.org/abs/2405.13777) on cultural diversity in contrastive vision-language models has been accepted to [NeurIPS 2024](https://neurips.cc/)!
+Our [paper](https://arxiv.org/abs/2405.13777) on cultural diversity in contrastive vision-language models has been accepted to [NeurIPS 2024](https://neurips.cc/).
 
 
