@@ -1,9 +1,26 @@
 ---
 ---
 
+@inproceedings{pouget2025suitability,
+  title={Suitability Filter: A Statistical Framework for Classifier Evaluation in Real-World Deployment Settings},
+  author={Pouget, Ang{\'e}line and Yaghini, Mohammad and Rabanser, Stephan and Papernot, Nicolas},
+  booktitle={Proceedings of the 42nd International Conference on Machine Learning},
+  volume={267},
+  year={2025},
+  publisher={PMLR},
+  abbr={ICML 2025},
+  pdf={https://arxiv.org/abs/2505.22356},
+  arxiv={2505.22356},
+  abstract={Deploying machine learning models in safety-critical domains poses a key challenge: ensuring reliable model performance on downstream user data without access to ground truth labels for direct validation. We propose the suitability filter, a novel framework designed to detect performance deterioration by utilizing suitability signals—model output features that are sensitive to covariate shifts and indicative of potential prediction errors. The suitability filter evaluates whether classifier accuracy on unlabeled user data shows significant degradation compared to the accuracy measured on the labeled test dataset. Specifically, it ensures that this degradation does not exceed a pre-specified margin, which represents the maximum acceptable drop in accuracy. To achieve reliable performance evaluation, we aggregate suitability signals for both test and user data and compare these empirical distributions using statistical hypothesis testing, thus providing insights into decision uncertainty. Our modular method adapts to various models and domains. Empirical evaluations across different classification tasks demonstrate that the suitability filter reliably detects performance deviations due to covariate shift. This enables proactive mitigation of potential failures in high-stakes applications.},
+  selected={true},
+}
+
 @article{pouget2024filter,
   title={No Filter: Cultural and Socioeconomic Diversity in Contrastive Vision-Language Models},
   author={Pouget, Angéline and Beyer, Lucas and Bugliarello, Emanuele and Wang, Xiao and Steiner, Andreas and Zhai, Xiaohua and Alabdulmohsin, Ibrahim},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={106474--106496},
   abbr={NeurIPS 2024},
   year={2024},
   pdf={https://arxiv.org/pdf/2405.13777},
@@ -20,7 +37,7 @@
   pdf={https://arxiv.org/pdf/2405.18161},
   arxiv={2405.18161},
   abstract={The goal of Fair Representation Learning (FRL) is to mitigate biases in machine learning models by learning data representations that enable high accuracy on downstream tasks while minimizing discrimination based on sensitive attributes. The evaluation of FRL methods in many recent works primarily focuses on the tradeoff between downstream fairness and accuracy with respect to a single task that was used to approximate the utility of representations during training (proxy task). This incentivizes retaining only features relevant to the proxy task while discarding all other information. In extreme cases, this can cause the learned representations to collapse to a trivial, binary value, rendering them unusable in transfer settings. In this work, we argue that this approach is fundamentally mismatched with the original motivation of FRL, which arises from settings with many downstream tasks unknown at training time (transfer tasks). To remedy this, we propose to refocus the evaluation protocol of FRL methods primarily around the performance on transfer tasks. A key challenge when conducting such an evaluation is the lack of adequate benchmarks. We address this by formulating four criteria that a suitable evaluation procedure should fulfill. Based on these, we propose TransFair, a benchmark that satisfies these criteria, consisting of novel variations of popular FRL datasets with carefully calibrated transfer tasks. In this setting, we reevaluate state-of-the-art FRL methods, observing that they often overfit to the proxy task, which causes them to underperform on certain transfer tasks. We further highlight the importance of task-agnostic learning signals for FRL methods, as they can lead to more transferrable representations.},
-  selected={true}
+  selected={false}
 }
 
 @article{hersche2023factorizers,
