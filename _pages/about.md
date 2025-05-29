@@ -15,11 +15,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome! I’m Angéline, a research engineer at [Google DeepMind](https://deepmind.google/) in Zurich, very curious about the world around me and deeply passionate about diving headfirst into fascinating topics. Currently, my focus is on multimodal data, models and inclusivity.
+Welcome! I’m Angéline, a research engineer at [Google DeepMind](https://deepmind.google/) in Zurich, very curious about the world around me and deeply passionate about diving headfirst into fascinating topics. Currently, my focus is on data-centric AI research, particularly on improving multimodal understanding in large language models.
 
 Previously, I was a Master's student at [ETH Zürich](https://ethz.ch/en.html) and a visiting graduate student at the [University of Toronto](https://www.utoronto.ca/), advised by [Nicolas Papernot](https://www.papernot.fr/). I've also had the opportunity to intern across various industries including tech, finance and consulting, gaining diverse insights along the way.
 
-Outside of my professional pursuits, I’m a dedicated hybrid athlete and marathoner and an aspiring triathlete.
+Outside of my professional pursuits, I’m a dedicated hybrid athlete, aspiring triathlete and BQ marathoner, passionate about pushing my limits through swimming, cycling, running and strength training.
 
 <!-- #### research
 Previously, I was a research intern at the [Vector Institute](https://vectorinstitute.ai/) and a visiting graduate student at the [University of Toronto](https://www.utoronto.ca/), advised by [Nicolas Papernot](https://www.papernot.fr/). Before that, I was a student researcher at [Google DeepMind](https://deepmind.google/), where I focused on evaluating and improving cultural diversity in contrastive vision-language models with [Lucas Beyer](http://lucasb.eyer.be/), [Xiaohua Zhai](https://sites.google.com/view/xzhai), [Ibrahim Alabdulmohsin](https://ibomohsin.github.io/) and others. 
